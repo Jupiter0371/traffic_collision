@@ -1,0 +1,15 @@
+.chart-container {
+    width: 100%; /* Full width of the viewport */
+    max-width: 100%; /* You can set a max-width if needed */
+    height: 400px; /* Set a fixed height or as needed */
+    margin: 0 auto; /* This will center the div horizontally */
+    padding: 20px; /* Optional: if you want some spacing around the chart */
+  }
+  
+  /* Optional: Responsive height */
+  @media (min-width: 768px) {
+    .chart-container {
+      height: 50vh; /* Adjust the height as needed */
+    }
+  }
+  
